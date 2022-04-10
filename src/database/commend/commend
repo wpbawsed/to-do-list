@@ -1,0 +1,8 @@
+// 建立migration
+npm run typeorm-cli migration:generate -- -n migrationNameHere
+
+// run migration
+npm run typeorm-cli migration:run
+
+// down migration
+npm run typeorm-cli migration:revert
